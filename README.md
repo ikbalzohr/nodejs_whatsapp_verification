@@ -25,6 +25,7 @@ Branch ini merupakan finishing dari semua branch.
 - CRUD
 - Authentication and authorization
 - Refresh Token
+- WhatsApp Verification
 
 ### Fitur yang tidak didukung:
 - Jest
