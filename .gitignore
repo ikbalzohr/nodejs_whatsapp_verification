@@ -12,3 +12,7 @@
 # misc
 DS_Store
 package-lock.json
+
+# wwebjs
+/.wwebjs_auth
+/.wwebjs_cache

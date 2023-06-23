@@ -40,7 +40,7 @@ export async function registerUser(req: Request, res: Response): Promise<any> {
     const { name, email, createdAt } = await addUser(value)
     logger.info('Success register user')
     return res
-      .status(201)
+      .status(200)
       .send({ status: true, statusCode: 200, message: 'Register user success', data: { name, email, createdAt } })
   } catch (error) {
     logger.error(`Auth - register = ${error}`)

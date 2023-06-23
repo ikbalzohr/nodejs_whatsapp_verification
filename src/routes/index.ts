@@ -2,10 +2,12 @@ import { type Application, type Router } from 'express'
 
 import { ProductRouter } from './product_route'
 import { AuthRouter } from './auth_route'
+import { WhatsAppRouter } from './whatsapp_route'
 
 const _routes: Array<[string, Router]> = [
   ['/product', ProductRouter],
-  ['/auth', AuthRouter]
+  ['/auth', AuthRouter],
+  ['/wa', WhatsAppRouter]
 ]
 
 export function routes(app: Application): void {
